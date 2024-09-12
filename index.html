@@ -10,6 +10,51 @@
 
     <title>Kethan Kumar Veldandi - Portfolio</title>
     <style>
+        .certification-box {
+        background-color: #2c2c2c;
+        padding: 2rem;
+        border-radius: 1rem;
+        border: .2rem solid #b74b4b;
+        text-align: center;
+        flex: 1 1 30rem;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .certification-box:hover {
+        transform: scale(1.02);
+        border-color: #b74b4b;
+    }
+
+    .certification-box h3 {
+        font-size: 2.2rem;
+        color: #b74b4b;
+        margin-bottom: 1rem;
+    }
+
+    .certification-box p {
+        font-size: 1.6rem;
+        color: #e0e0e0;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .view-certificate {
+        display: inline-block;
+        padding: 0.8rem 1.5rem;
+        background-color: #b74b4b;
+        color: #fff;
+        border-radius: 2rem;
+        font-size: 1.4rem;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .view-certificate:hover {
+        background-color: #a43c3c;
+        transform: translateY(-3px);
+    }
         .technologies {
             margin-top: 15px;
         }
